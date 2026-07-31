@@ -1,0 +1,8 @@
+pandoc: 3.8.3
+pkgdown: 2.2.1
+pkgdown_sha: ~
+articles: {}
+last_built: 2026-07-31T18:32Z
+urls:
+  reference: https://ottvahtrik.github.io/otter/reference
+  article: https://ottvahtrik.github.io/otter/articles
