@@ -1,0 +1,16 @@
+Package: otter
+Title: Ott's Utility Functions
+Version: 0.1.0
+Authors@R: 
+    person("Ott", "Vahtrik", , "ott.vahtrik@gmail.com", role = c("aut", "cre"))
+Description: A collection of personal utility functions, shared in case they are useful to others.
+License: MIT + file LICENSE
+URL: https://github.com/ottvahtrik/otter, https://ottvahtrik.github.io/otter/
+BugReports: https://github.com/ottvahtrik/otter/issues
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3
+Suggests: 
+    lintr,
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
