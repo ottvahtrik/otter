@@ -1,0 +1,11 @@
+^otter\.Rproj$
+^\.Rproj\.user$
+^LICENSE\.md$
+^README\.Rmd$
+^\.lintr$
+^codecov\.yml$
+^\.github$
+^cran-comments\.md$
+^_pkgdown\.yml$
+^docs$
+^pkgdown$
