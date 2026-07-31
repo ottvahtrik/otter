@@ -16,12 +16,10 @@ coverage](https://codecov.io/gh/ottvahtrik/otter/graph/badge.svg)](https://app.c
 otter is a small collection of functions that are useful for me, Ott,
 and hopefully for others too. Sharing is caring!
 
-Currently otter provides `rtf_to_df()`, which parses RTF files –
-including those produced by SAS and the
-[{r2rtf}](https://merck.github.io/r2rtf/) package – and extracts
-embedded tables into a data frame. It automatically detects header rows,
-handles multi-page and multi-table RTF output, and supports non-UTF-8
-encodings.
+Currently otter provides `rtf_to_df()`, which parses RTF files and
+extracts embedded tables into a data frame. It automatically detects
+header rows, handles multi-page and multi-table RTF output, and supports
+non-UTF-8 encodings.
 
 ## Installation
 
