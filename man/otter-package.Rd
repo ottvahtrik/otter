@@ -6,7 +6,7 @@
 \alias{otter-package}
 \title{otter: Ott's Utility Functions}
 \description{
-A collection of personal utility functions, shared in case they are useful to others.
+A growing collection of personal utility functions. Currently provides tools to parse Rich Text Format (RTF) files and extract their tables into data frames, automatically detecting header rows, merging multi-page tables, and resolving merged cells. Particularly useful for tables produced by SAS or by the 'r2rtf' package, which are commonly used for clinical trial and regulatory reporting.
 }
 \seealso{
 Useful links:

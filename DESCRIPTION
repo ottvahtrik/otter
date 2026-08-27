@@ -3,7 +3,13 @@ Title: Ott's Utility Functions
 Version: 0.1.0
 Authors@R: 
     person("Ott", "Vahtrik", , "ott.vahtrik@gmail.com", role = c("aut", "cre"))
-Description: A collection of personal utility functions, shared in case they are useful to others.
+Description: A growing collection of personal utility functions.
+    Currently provides tools to parse Rich Text Format (RTF) files and
+    extract their tables into data frames, automatically detecting
+    header rows, merging multi-page tables, and resolving merged
+    cells. Particularly useful for tables produced by SAS or by the
+    'r2rtf' package, which are commonly used for clinical trial and
+    regulatory reporting.
 License: MIT + file LICENSE
 URL: https://github.com/ottvahtrik/otter, https://ottvahtrik.github.io/otter/
 BugReports: https://github.com/ottvahtrik/otter/issues

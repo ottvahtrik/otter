@@ -1,6 +1,11 @@
-## Submission
+## Resubmission
 
-This is a new release.
+This is a resubmission. In response to CRAN feedback on the initial
+submission:
+
+The Description field has been expanded into a full paragraph
+explaining what the package does, why it is useful, and which tools
+(SAS, 'r2rtf') commonly produce the RTF tables it parses.
 
 ## R CMD check results
 
