@@ -19,8 +19,8 @@ explaining what the package does, why it is useful, and which tools
   `--no-manual` used locally because this machine has no LaTeX installation
   to build the PDF reference manual -- not expected to be an issue on
   CRAN's own check machines, which have LaTeX available.
-* win-builder (R-devel, `devtools::check_win_devel()`): 0 errors | 0 warnings | 1 note.
-  The note flags "New submission" and the possibly misspelled word "Ott's"
-  in the Title, which is the maintainer's name and expected to be a false
-  positive.
+* win-builder (R-devel, `devtools::check_win_devel()`, checked 2026-08-28):
+  0 errors | 0 warnings | 1 note. The note flags "New submission" and the
+  possibly misspelled words "Ott's" (maintainer's name) and "RTF" (the
+  file format the package parses), both expected false positives.
 * GitHub Actions (via `usethis::use_github_action("test-coverage")`)
