@@ -7,7 +7,7 @@
 ## Citation
 
 Source:
-[`DESCRIPTION`](https://github.com/ottvahtrik/otter/blob/main/DESCRIPTION)
+[`DESCRIPTION`](https://github.com/ottvahtrik/otter/blob/0.1.0/DESCRIPTION)
 
 Vahtrik O (2026). *otter: Ott's Utility Functions*. R package version
 0.1.0, <https://github.com/ottvahtrik/otter>.
