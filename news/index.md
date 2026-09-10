@@ -2,6 +2,8 @@
 
 ## otter 0.1.0
 
+CRAN release: 2026-09-10
+
 - Initial CRAN submission.
 - Added
   [`rtf_to_df()`](https://ottvahtrik.github.io/otter/reference/rtf_to_df.md),
