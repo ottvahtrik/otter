@@ -49,3 +49,6 @@ po/*~
 rsconnect/
 .Rproj.user
 docs
+
+# CRAN submission record
+CRAN-SUBMISSION
