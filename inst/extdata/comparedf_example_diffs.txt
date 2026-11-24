@@ -1,0 +1,82 @@
+
+
+Table: Summary of data.frames
+
+version   arg        ncol   nrow
+--------  --------  -----  -----
+x         main_ds       3     10
+y         val_ds        3     10
+
+
+
+Table: Summary of overall comparison
+
+statistic                                                      value
+------------------------------------------------------------  ------
+Number of by-variables                                             0
+Number of non-by variables in common                               2
+Number of variables compared                                       2
+Number of variables in x but not y                                 1
+Number of variables in y but not x                                 1
+Number of variables compared with some values unequal              1
+Number of variables compared with all values equal                 1
+Number of observations in common                                  10
+Number of observations in x but not y                              0
+Number of observations in y but not x                              0
+Number of observations with some compared variables unequal        1
+Number of observations with all compared variables equal           9
+Number of values unequal                                           1
+
+
+
+Table: Variables not shared
+
+version   variable    position  class     
+--------  ---------  ---------  ----------
+x         name               2  character 
+y         extra              3  integer   
+
+
+
+Table: Other variables not compared
+
+                                 
+ --------------------------------
+ No other variables not compared 
+ --------------------------------
+
+
+
+Table: Observations not shared
+
+                            
+ ---------------------------
+ No observations not shared 
+ ---------------------------
+
+
+
+Table: Differences detected by variable
+
+var.x   var.y     n   NAs
+------  ------  ---  ----
+id      id        0     0
+val     val       1     0
+
+
+
+Table: Differences detected
+
+var.x   var.y    ..row.names..  values.x   values.y    row.x   row.y
+------  ------  --------------  ---------  ---------  ------  ------
+val     val                  3  0.57       1.57            3       3
+
+
+
+Table: Non-identical attributes
+
+                             
+ ----------------------------
+ No non-identical attributes 
+ ----------------------------
+

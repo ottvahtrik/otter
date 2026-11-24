@@ -1,0 +1,82 @@
+
+
+Table: Summary of data.frames
+
+version   arg        ncol   nrow
+--------  --------  -----  -----
+x         main_ds       2      5
+y         val_ds        2      5
+
+
+
+Table: Summary of overall comparison
+
+statistic                                                      value
+------------------------------------------------------------  ------
+Number of by-variables                                             0
+Number of non-by variables in common                               2
+Number of variables compared                                       2
+Number of variables in x but not y                                 0
+Number of variables in y but not x                                 0
+Number of variables compared with some values unequal              0
+Number of variables compared with all values equal                 2
+Number of observations in common                                   5
+Number of observations in x but not y                              0
+Number of observations in y but not x                              0
+Number of observations with some compared variables unequal        0
+Number of observations with all compared variables equal           5
+Number of values unequal                                           0
+
+
+
+Table: Variables not shared
+
+                         
+ ------------------------
+ No variables not shared 
+ ------------------------
+
+
+
+Table: Other variables not compared
+
+                                 
+ --------------------------------
+ No other variables not compared 
+ --------------------------------
+
+
+
+Table: Observations not shared
+
+                            
+ ---------------------------
+ No observations not shared 
+ ---------------------------
+
+
+
+Table: Differences detected by variable
+
+var.x   var.y     n   NAs
+------  ------  ---  ----
+id      id        0     0
+val     val       0     0
+
+
+
+Table: Differences detected
+
+                         
+ ------------------------
+ No differences detected 
+ ------------------------
+
+
+
+Table: Non-identical attributes
+
+var.x   var.y   name  
+------  ------  ------
+val     val     label 
+

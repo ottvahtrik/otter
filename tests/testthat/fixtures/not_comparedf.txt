@@ -1,0 +1,3 @@
+This is just a plain text file.
+It has nothing to do with arsenal::comparedf() output.
+No "Table:" blocks appear anywhere in this file.
