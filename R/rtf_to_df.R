@@ -31,7 +31,7 @@
 #'   first table, `2L` the second, etc. `NULL` merges all tables. **Default:** `NULL`
 #'
 #' @return A `data.frame` with one row per body row and one column per cell. All
-#'   values are character strings. Column names are `V1`, `V2`, ... unless
+#'   values are character strings; empty cells (`""`) are returned as `NA`. Column names are `V1`, `V2`, ... unless
 #'   `include_header = TRUE`.
 #'
 #' @examples
@@ -121,6 +121,12 @@ rtf_to_df <- function(path,
     do.call(rbind, rows_padded),
     stringsAsFactors = FALSE
   )
+
+  # Empty cells become NA.
+  df[] <- lapply(df, function(x) {
+    x[!is.na(x) & x == ""] <- NA_character_
+    x
+  })
 
   default_names <- paste0("V", seq_len(n_cols))
   col_names <- default_names

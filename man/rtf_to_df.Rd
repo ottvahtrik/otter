@@ -33,7 +33,7 @@ first table, \code{2L} the second, etc. \code{NULL} merges all tables. \strong{D
 }
 \value{
 A \code{data.frame} with one row per body row and one column per cell. All
-values are character strings. Column names are \code{V1}, \code{V2}, ... unless
+values are character strings; empty cells (\code{""}) are returned as \code{NA}. Column names are \code{V1}, \code{V2}, ... unless
 \code{include_header = TRUE}.
 }
 \description{
